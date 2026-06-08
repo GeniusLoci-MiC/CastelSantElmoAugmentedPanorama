@@ -54,9 +54,9 @@
       ],
       "rotation": [
         0,
-        -0.8141155183563255,
         0,
-        0.580702955710933
+        0,
+        1
       ],
       "scale": [
         1.0000000000000284,
@@ -162,7 +162,7 @@
       "id": "d2882437-8990-46dd-b6a3-7db04cb12246",
       "position": [
         0,
-        4,
+        3.9999999999999996,
         45
       ],
       "rotation": [
@@ -179,17 +179,14 @@
       "geometry": {
         "type": "plane",
         "width": 1,
-        "height": 1
+        "height": 0.5000000000000001
       },
       "material": {
         "type": "basic",
         "color": "#ffffff",
         "opacity": 1,
         "blending": "normal",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/ISCHIA.png"
-        },
+        "textureSrc": null,
         "forceTransparent": true
       },
       "parentId": "171dbb9c-7e18-4b8a-a483-405a448ee0ea",
@@ -276,9 +273,9 @@
       ],
       "rotation": [
         0,
-        0.4771587602596083,
+        0.9914448613738138,
         0,
-        0.8788171126619654
+        -0.13052619222005246
       ],
       "scale": [
         1,
@@ -290,8 +287,7 @@
       "parentId": "f0ddd8b9-73a1-4ccf-9729-ea25a93d9100",
       "components": {},
       "name": "root_Ischia",
-      "order": 6.1179295142019114,
-      "disabled": true
+      "order": 6.1179295142019114
     },
     "0e04c766-02bb-4498-88cc-717f7f7f2a82": {
       "id": "0e04c766-02bb-4498-88cc-717f7f7f2a82",
@@ -1696,25 +1692,25 @@
     "5e62886d-c7ef-4966-b4cc-5bef31c8b148": {
       "id": "5e62886d-c7ef-4966-b4cc-5bef31c8b148",
       "position": [
-        -2.1316282072803616e-17,
-        -0.6764388620880175,
+        -3.197442310916746e-17,
+        -0.536795800455991,
         0
       ],
       "rotation": [
         0,
-        1.3877787807814457e-17,
+        4.8572257327350605e-17,
         0,
         1
       ],
       "scale": [
         1,
         1,
-        0.9999999999999999
+        0.9999999999999998
       ],
       "geometry": {
         "type": "cylinder",
         "radius": 0.01,
-        "height": 0.2
+        "height": 0.6
       },
       "material": {
         "type": "basic",
@@ -1724,6 +1720,43 @@
       "components": {},
       "name": "Cylinder (11)",
       "order": 2.6838391305330522
+    },
+    "0034c578-f8fc-47f2-9e67-8e865505dbb8": {
+      "id": "0034c578-f8fc-47f2-9e67-8e865505dbb8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d2882437-8990-46dd-b6a3-7db04cb12246",
+      "components": {},
+      "ui": {
+        "width": 108,
+        "height": 32,
+        "text": "Ischia",
+        "color": "#000000",
+        "fontSize": 30,
+        "type": "3d",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "name": "Text",
+      "order": 3.9769363428695144
     }
   },
   "spaces": {
