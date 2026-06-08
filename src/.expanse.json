@@ -41,16 +41,17 @@
         "side": "back",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/CastelSantElmoAugmentedPanorama.jpeg"
+          "asset": "assets/CastelSantElmoAugmentedPanoramaMirrored.jpeg"
         },
         "blending": "normal",
-        "repeatX": 1
+        "repeatX": 1,
+        "wrap": "repeat"
       },
       "name": "Panorama360",
       "position": [
         0,
         0,
-        0
+        -0.9273360917595137
       ],
       "rotation": [
         0,
@@ -59,7 +60,7 @@
         1
       ],
       "scale": [
-        1.0000000000000284,
+        1,
         1.0000000000000004,
         1.0000000000000289
       ],
@@ -273,9 +274,9 @@
       ],
       "rotation": [
         0,
-        0.9914448613738138,
+        0.6156614753256623,
         0,
-        -0.13052619222005246
+        -0.7880107536067281
       ],
       "scale": [
         1,
@@ -325,9 +326,9 @@
       ],
       "rotation": [
         0,
-        -0.35836794954530027,
+        -0.12186934340514785,
         0,
-        0.9335804264972017
+        0.9925461516413238
       ],
       "scale": [
         1,
@@ -1724,20 +1725,20 @@
     "0034c578-f8fc-47f2-9e67-8e865505dbb8": {
       "id": "0034c578-f8fc-47f2-9e67-8e865505dbb8",
       "position": [
-        0,
-        0,
-        0
+        -0.0016907198108770051,
+        1.1102230246251565e-16,
+        0.01608612447066271
       ],
       "rotation": [
         0,
-        0,
+        -6.938893903907231e-18,
         0,
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.9999999999999998,
+        0.9999999999999997,
+        0.9999999999999997
       ],
       "geometry": null,
       "material": null,
@@ -1757,6 +1758,503 @@
       },
       "name": "Text",
       "order": 3.9769363428695144
+    },
+    "190ab660-1ebd-4a68-b273-c3f3f22fe74e": {
+      "id": "190ab660-1ebd-4a68-b273-c3f3f22fe74e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.10766265411952147,
+        -0.3070305885367199,
+        0.03498171687214434,
+        0.9449429877486936
+      ],
+      "scale": [
+        0.9999999999999998,
+        1,
+        0.9999999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f0ddd8b9-73a1-4ccf-9729-ea25a93d9100",
+      "components": {},
+      "name": "root_Pignatelli",
+      "order": 1.9323705360443013,
+      "hidden": false
+    },
+    "7aaabe0d-a550-4d1a-ba8b-1090cd798111": {
+      "id": "7aaabe0d-a550-4d1a-ba8b-1090cd798111",
+      "position": [
+        0,
+        10.619961471096216,
+        45.00000000000001
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -4.4408920985006196e-17
+      ],
+      "scale": [
+        5,
+        4.999999999999997,
+        5
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1.7000000000000002,
+        "height": 0.8
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "opacity": 1,
+        "blending": "normal",
+        "textureSrc": null,
+        "forceTransparent": true
+      },
+      "parentId": "190ab660-1ebd-4a68-b273-c3f3f22fe74e",
+      "components": {},
+      "name": "Pignatelli",
+      "order": 4.157353134423295,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "6971ed7c-ef59-44c8-82f6-68c2cb5ac309": {
+      "id": "6971ed7c-ef59-44c8-82f6-68c2cb5ac309",
+      "position": [
+        8.668621376273224e-16,
+        -2.156737309211248,
+        1.7763568394002505e-15
+      ],
+      "rotation": [
+        0,
+        -1.387778780781446e-17,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#000000"
+      },
+      "parentId": "7aaabe0d-a550-4d1a-ba8b-1090cd798111",
+      "components": {},
+      "name": "Sphere (11)",
+      "order": 1.674870873234584
+    },
+    "3f532f4e-62b4-46bc-9ff1-bfcb50d9e940": {
+      "id": "3f532f4e-62b4-46bc-9ff1-bfcb50d9e940",
+      "position": [
+        -1.2718714970105659e-15,
+        -1.290492320482671,
+        0.013168052442612321
+      ],
+      "rotation": [
+        -2.081668171172169e-17,
+        3.0814879110195774e-33,
+        6.9388939039072276e-18,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        0.9999999999999999
+      ],
+      "geometry": {
+        "type": "cylinder",
+        "radius": 0.01,
+        "height": 1.8
+      },
+      "material": {
+        "type": "basic",
+        "color": "#000000"
+      },
+      "parentId": "7aaabe0d-a550-4d1a-ba8b-1090cd798111",
+      "components": {},
+      "name": "Cylinder (12)",
+      "order": 3.3608055772114724
+    },
+    "9ee4d887-22df-4b17-8cbc-398fc13ccb3e": {
+      "id": "9ee4d887-22df-4b17-8cbc-398fc13ccb3e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7aaabe0d-a550-4d1a-ba8b-1090cd798111",
+      "components": {},
+      "ui": {
+        "width": 157,
+        "height": 69,
+        "text": "Villa Pignatelli",
+        "color": "#000000",
+        "fontSize": 30,
+        "type": "3d",
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "name": "Text (1)",
+      "order": 4.757888529998958
+    },
+    "38282c3c-5d6a-4815-b233-66ff40acedb5": {
+      "id": "38282c3c-5d6a-4815-b233-66ff40acedb5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.02352768528939745,
+        -0.43822092794563716,
+        0.011475218849160826,
+        0.8984860520273844
+      ],
+      "scale": [
+        0.9999999999999998,
+        1,
+        0.9999999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f0ddd8b9-73a1-4ccf-9729-ea25a93d9100",
+      "components": {},
+      "name": "root_Posillipo",
+      "order": 1.0794438079672486,
+      "hidden": false
+    },
+    "f3fbc1d0-4c8c-49b1-bf3f-ba24731422b1": {
+      "id": "f3fbc1d0-4c8c-49b1-bf3f-ba24731422b1",
+      "position": [
+        0,
+        10.619961471096216,
+        45.00000000000001
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -4.4408920985006196e-17
+      ],
+      "scale": [
+        5,
+        4.999999999999997,
+        5
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1.3000000000000003,
+        "height": 0.6000000000000001
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "opacity": 1,
+        "blending": "normal",
+        "textureSrc": null,
+        "forceTransparent": true
+      },
+      "parentId": "38282c3c-5d6a-4815-b233-66ff40acedb5",
+      "components": {},
+      "name": "Posillipo",
+      "order": 4.157353134423295,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "31a93e3d-b310-4335-924f-fc201eb8454a": {
+      "id": "31a93e3d-b310-4335-924f-fc201eb8454a",
+      "position": [
+        8.668621376273224e-16,
+        -2.156737309211248,
+        1.7763568394002505e-15
+      ],
+      "rotation": [
+        0,
+        -1.387778780781446e-17,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        0.9999999999999999,
+        0.9999999999999999
+      ],
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#000000"
+      },
+      "parentId": "f3fbc1d0-4c8c-49b1-bf3f-ba24731422b1",
+      "components": {},
+      "name": "Sphere (12)",
+      "order": 1.674870873234584
+    },
+    "9c43c606-4fb3-4637-890c-841d6a8d895a": {
+      "id": "9c43c606-4fb3-4637-890c-841d6a8d895a",
+      "position": [
+        1.3802292642139984e-15,
+        -1.2104231141673418,
+        0.007185437116543625
+      ],
+      "rotation": [
+        8.673617379884037e-19,
+        -1.387778780781446e-17,
+        -1.925929944387236e-34,
+        1
+      ],
+      "scale": [
+        1,
+        0.9999999999999999,
+        0.9999999999999998
+      ],
+      "geometry": {
+        "type": "cylinder",
+        "radius": 0.01,
+        "height": 1.8
+      },
+      "material": {
+        "type": "basic",
+        "color": "#000000"
+      },
+      "parentId": "f3fbc1d0-4c8c-49b1-bf3f-ba24731422b1",
+      "components": {},
+      "name": "Cylinder (13)",
+      "order": 3.3608055772114724
+    },
+    "3ae4dce9-ef6a-42b2-b996-9e585c4dfa9b": {
+      "id": "3ae4dce9-ef6a-42b2-b996-9e585c4dfa9b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f3fbc1d0-4c8c-49b1-bf3f-ba24731422b1",
+      "components": {},
+      "ui": {
+        "width": 146,
+        "height": 44,
+        "text": "Posillipo",
+        "color": "#000000",
+        "fontSize": 30,
+        "type": "3d",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        },
+        "verticalTextAlign": "center"
+      },
+      "name": "Text (2)",
+      "order": 4.829092740550909
+    },
+    "e42381de-e74c-4b2c-a7c3-7af38f6a6748": {
+      "id": "e42381de-e74c-4b2c-a7c3-7af38f6a6748",
+      "position": [
+        0,
+        1.3205028301037773,
+        0
+      ],
+      "rotation": [
+        0,
+        -0.12186934340514806,
+        0,
+        0.992546151641322
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f0ddd8b9-73a1-4ccf-9729-ea25a93d9100",
+      "components": {},
+      "name": "root_Capri",
+      "order": 9.71631027089355
+    },
+    "e8eb2e9c-7d32-49a4-8043-954e19901d40": {
+      "id": "e8eb2e9c-7d32-49a4-8043-954e19901d40",
+      "position": [
+        0,
+        4,
+        45
+      ],
+      "rotation": [
+        0,
+        -1,
+        0,
+        6.123233995736766e-17
+      ],
+      "scale": [
+        5,
+        4.999999999999999,
+        5
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.6000000000000001
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "opacity": 1,
+        "blending": "normal",
+        "textureSrc": null,
+        "forceTransparent": true
+      },
+      "parentId": "e42381de-e74c-4b2c-a7c3-7af38f6a6748",
+      "components": {},
+      "name": "Capri",
+      "order": 4.157353134423295,
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "6598786b-b862-4012-85ac-c1b9a73283cd": {
+      "id": "6598786b-b862-4012-85ac-c1b9a73283cd",
+      "position": [
+        -9.094947017729277e-16,
+        -1.0853340905429905,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        0.9999999999999996
+      ],
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.10000000000000003
+      },
+      "material": {
+        "type": "basic",
+        "color": "#000000"
+      },
+      "components": {},
+      "name": "Sphere (13)",
+      "order": 5.646229255522182,
+      "parentId": "e8eb2e9c-7d32-49a4-8043-954e19901d40"
+    },
+    "dcb04e8e-f392-428c-9808-dab71b7f0119": {
+      "id": "dcb04e8e-f392-428c-9808-dab71b7f0119",
+      "position": [
+        -2.131628207280263e-17,
+        -0.6994203721652311,
+        0
+      ],
+      "rotation": [
+        0,
+        6.93889390390723e-18,
+        0,
+        1
+      ],
+      "scale": [
+        0.9999999999999999,
+        1,
+        0.9999999999999999
+      ],
+      "geometry": {
+        "type": "cylinder",
+        "radius": 0.01,
+        "height": 0.8
+      },
+      "material": {
+        "type": "basic",
+        "color": "#000000"
+      },
+      "parentId": "e8eb2e9c-7d32-49a4-8043-954e19901d40",
+      "components": {},
+      "name": "Cylinder (14)",
+      "order": 7.422311781780804
+    },
+    "7510d635-2ff2-4a86-8dae-e5de6948aa4d": {
+      "id": "7510d635-2ff2-4a86-8dae-e5de6948aa4d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e8eb2e9c-7d32-49a4-8043-954e19901d40",
+      "components": {},
+      "ui": {
+        "width": 119,
+        "height": 32,
+        "text": "Capri",
+        "color": "#000000",
+        "fontSize": 30,
+        "type": "3d",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        },
+        "verticalTextAlign": "center"
+      },
+      "name": "Text (3)",
+      "order": 9.317319859233196
     }
   },
   "spaces": {
